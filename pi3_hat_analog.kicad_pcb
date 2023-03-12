@@ -253,7 +253,7 @@
 
   (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical" (layer "F.Cu")
     (tedit 5B785046) (tstamp 3472ac51-2496-4774-b525-ca48b4eac389)
-    (at 103.7225 66.5 90)
+    (at 105.7035 57.952 -90)
     (descr "Generic Phoenix Contact connector footprint for: MSTBVA_2,5/2-G; number of pins: 02; pin pitch: 5.00mm; Vertical || order number: 1755516 12A || order number: 1924198 16A (HC)")
     (tags "phoenix_contact connector MSTBVA_01x02_G_5.00mm")
     (property "Sheetfile" "pi3_hat_analog.kicad_sch")
@@ -309,9 +309,9 @@
     (fp_line (start 8.5 -4.8) (end -3.5 -4.8) (layer "F.Fab") (width 0.1) (tstamp bc234a96-8e81-44f9-b2e6-4514c92af46f))
     (fp_line (start 0.5 -3.55) (end 0 -2.55) (layer "F.Fab") (width 0.1) (tstamp caaf1f33-3031-4927-a17d-4cf530ad7fd5))
     (fp_line (start -0.5 -3.55) (end 0.5 -3.55) (layer "F.Fab") (width 0.1) (tstamp e62f9cc5-f046-442e-9360-e5ca54404aa5))
-    (pad "1" thru_hole roundrect (at 0 0 90) (size 2 3.6) (drill 1.4) (layers *.Cu *.Mask) (roundrect_rratio 0.125)
+    (pad "1" thru_hole roundrect (at 0 0 270) (size 2 3.6) (drill 1.4) (layers *.Cu *.Mask) (roundrect_rratio 0.125)
       (net 1 "+3V3") (pinfunction "Pin_1") (pintype "passive") (tstamp f69e205d-71f1-4bed-8e46-d37fa1b7672f))
-    (pad "2" thru_hole oval (at 5 0 90) (size 2 3.6) (drill 1.4) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 5 0 270) (size 2 3.6) (drill 1.4) (layers *.Cu *.Mask)
       (net 7 "Net-(J1-Pad2)") (pinfunction "Pin_2") (pintype "passive") (tstamp 8d2043d0-1e2a-47a8-b40c-1d3c6b8242cf))
     (model "${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical.wrl"
       (offset (xyz 0 0 0))
